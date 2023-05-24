@@ -168,9 +168,18 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'name' => [
+            'required' => 'Necesitamos saber tu nombre',
         ],
+        'user' => [
+            'required' => 'Usuario obligatorio',
+        ],
+        'email' => [
+            'required' => 'Correo obligatorio',
+        ],
+        'password' => [
+            'required' => 'Contraseña obligatoria',
+        ]
     ],
 
     /*

@@ -24,7 +24,7 @@ class RegisterController extends Controller
         // Validacion de los datos introducidos en el formulario
         $this->validate($request, [
             'name' => 'required|alpha|min:3|max:30',
-            'apellidos' => 'alpha|max:50',
+            'apellidos' => 'regex:/^[\pL\s\-]+$/u',
             'user' => 'required|unique:users|min:4|max:20',
             'email' => 'required|unique:users|email|max:40',
             'password' => 'required|min:6|confirmed'
