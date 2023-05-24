@@ -12,8 +12,6 @@ Inicio
 
 @section('contenido')
 
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
-
 <div class="bg-gray-100 mt-10 pb-10 shadow-lg">
     <div class="container mx-auto my-5 p-5 pt-10">
         <div class="md:flex no-wrap md:-mx-2">

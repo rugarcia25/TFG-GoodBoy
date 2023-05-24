@@ -46,7 +46,7 @@ class DarEnAdopcionFormController extends Controller
             'sano' => 'nullable',
             'esterilizado' => 'nullable',
             'identificado' => 'nullable',
-            'microchip' => 'nullable|numeric|min:14|max:14',
+            'microchip' => 'nullable|numeric|min:10|max:20',
             'tlfContacto' => 'required|numeric|min:9',
             'imagenPerfil' => 'required'
         ]);
